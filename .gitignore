@@ -1,0 +1,12 @@
+.env
+azure_function/local.settings.json
+.azurite/
+azure_function/.azurite/
+azure_function/.venv/
+azure_function/.python_packages/
+azure_function/package-lock.json
+__pycache__/
+*.pyc
+.claude
+.venv/
+.python_packages/
