@@ -56,7 +56,6 @@ async def discord_interactions(
                 "type": 4,
                 "data": {
                     "content": "Specify a duration using `minutes` or `seconds`.",
-                    "flags": 64,
                 },
             }),
             mimetype="application/json",
@@ -85,7 +84,6 @@ async def discord_interactions(
             "type": 4,
             "data": {
                 "content": f"Sleep timer set for {' and '.join(parts)}.",
-                "flags": 64,
             },
         }),
         mimetype="application/json",
