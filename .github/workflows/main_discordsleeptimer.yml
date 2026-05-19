@@ -73,3 +73,5 @@ jobs:
           app-name: 'discordsleeptimer'
           slot-name: 'Production'
           package: package
+          remote-build: true
+          sku: 'flexconsumption'
